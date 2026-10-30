@@ -10,7 +10,6 @@ A custom web-based store interface for Yemeni hand-woven and tufted rugs, design
 ## 🛠️ Technologies Used
 - HTML5
 - CSS3 (Flexbox, Grid, custom styling)
-- JavaScript
 
 ## 📂 Project Structure
 - `BisaatStore.html` - Main store interface
