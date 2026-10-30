@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bisaat Store</title>
+    <link rel="stylesheet" href="BisaatStoreStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div>
+            <img src="Identity/Logo.png" alt="Logo" class="logo" >
+        </div>
+        <div id="heading">
+            <nav aria-label="Main Navigation" id="navbar">
+                <ul id="list">
+                    <li><a href="#home">Home</li></a>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#customize">Customize</li></a>
+                    <li><a href="#account">Account</li></a>
+                </ul>
+            </nav>
+        
+        </div>
+
+        <div id="searchbar" >
+            <form action="/search" method="get" role="search">
+                <img src="Identity/searchtool.png" class="tool">
+                <input type="search" name="search" placeholder="Search products...">
+            </form>
+        </div>
+        
+    </header>
+
+
+    <main class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="main-title">Let's Create Your <br>Dream Rug</h1>
+                <p class="sub-text">We bring comfort and art to your house with custom designs that reflect your unique personality.</p>
+                <a href="#products" class="btn-shop-now">
+                    Shop Now<span class="arrow">→</span>
+                </a>
+            </div>
+        </div>
+    </main>
+
+
+    <div class="about-hero" id="about">
+        <div class="hero-content">
+            <h1>Crafting Your Vision</h1>
+            <p>From a simple sketch to a finished masterpiece, we bring your custom ideas to life with precision and passion.</p>
+        </div>
+    </div>
+
+    <div class="about-container">
+        <div class="about-grid">
+            <div class="about-text">
+                <h2>Our Story</h2>
+                <p>Founded on the belief that "one size fits none," we started this journey to give people the power to design their own world. Whether it's a piece of furniture that fits a specific corner or a unique piece of art, we specialize in the details that matter to you.</p>
+            
+                <h3>How It Works</h3>
+                    <ul class="process-list">
+                        <li><strong>Upload:</strong> Send us your inspiration or sketches.</li>
+                        <li><strong>Measure:</strong> Provide the exact dimensions you need.</li>
+                        <li><strong>Craft:</strong> Our artisans build your piece to order.</li>
+                        <li><strong>Deliver:</strong> Your custom creation arrives at your door.</li>
+                    </ul>
+            </div>
+        <div class="about-image">
+                <img src="pic/label.jpg">
+            </div>
+        </div>
+    </div>
+
+    <div class="values-section">
+        <div class="value-card">
+            <h4>Quality First</h4>
+            <p>We use premium materials sourced ethically to ensure your piece lasts a lifetime.</p>
+        </div>
+
+        <div class="value-card">
+            <h4>Precision</h4>
+            <p>Your measurements are our blueprint. We cut once and measure twice.</p>
+        </div>
+
+        <div class="value-card">
+            <h4>Support</h4>
+            <p>Have questions? Our team is with you from the first upload to the final delivery.</p>
+        </div>
+
+    </div>
+
+
+    
+    <div class="product-title" id="products">
+        <h1>Shop Our Collections</h1>
+        <p>Explore our gallery of hand-crafted rugs, where every stitch is designed to make your space uniquely yours</p>
+    </div>
+
+    <div class="product-grid">
+        <div class="product-card">
+            <div class="product-image-placeholder"><img src="pic/Attack.jpg"></div>
+            <div class="product-info">
+                <span class="product-title">Attack on Titan</span>
+                <span class="price" style="color: white;">$40.0</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image-placeholder"> <img src="pic/Naruto.jpg" alt=""> </div>
+            <div class="product-info">
+                <span class="product-title">Naruto</span>
+                <span class="price" style="color: white;">$20.0</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image-placeholder"> <img src="pic/HelloKitty.jpeg" alt=""> </div>
+            <div class="product-info">
+                <span class="product-title">Hello Kitty</span>
+                <span class="price" style="color: white;">$35.0</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image-placeholder"> <img src="pic/Watermelon.jpg"> </div>
+            <div class="product-info">
+                <span class="product-title">Watermelon</span>
+                <span class="price" style="color: white;">$25.0</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image-placeholder"> <img src="pic/Sonic.jpg"></div>
+            <div class="product-info">
+                <span class="product-title">Sonic</span>
+                <span class="price" style="color: white;">$38.0</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image-placeholder"> <img src="pic/Onepiece.jpg" alt=""> </div>
+            <div class="product-info">
+                <span class="product-title">One Piece</span>
+                <span class="price" style="color: white;">$51.0</span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="order-customize"  id="customize">
+        <div class="custom-title">
+            <h1>Customize Your Order</h1>
+            <p>Fill out the details below to bring your vision to life.</p>
+        </div>
+
+
+        <div class="main-grid">
+            <div class="column">
+                <h3>Upload Inspiration Photo</h3>
+                <label for="photo-upload" class="upload-area" style="cursor: pointer; display: block;">
+                    <span style="font-size: 30px;">+</span>
+                    <p><span style="color: white; font-style: italic;">Tap here to upload</span></p>
+                    <input type="file" id="photo-upload" name="inspiration_photo" accept="image/*" style="display: none;">
+                </label>
+                <p class="upload-note">*Please upload a high-quality image to ensure precise knitting details*</p>
+            </div>
+
+            <div class="column">
+                <div class="input-group">
+                    <h3>Choose Item Type</h3>
+                    <div class="radio-options">
+                        <label class="btn-option"><input type="radio" name="item_type" value="carpeting" style="display: none;">Home Carpeting</label>
+                        <label class="btn-option"><input type="radio" name="item_type" value="hangings" style="display: none;">Wall Hangings</label>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <h3>Select Dimensions</h3>
+                    <div class="size-inputs">
+                        <input type="number" placeholder="Length (cm)">
+                        <input type="number" placeholder="Width (cm)">
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <h3>Special Instructions</h3>
+                    <textarea class="notes-area" rows="3" placeholder="Add additional notes about your order..."></textarea>
+                </div>
+            </div>
+        </div>
+
+        
+        <div style="text-align: center; margin-bottom: 50px;">
+                <a href="order.html" class="cta-button">Send Your Custom Order</a>
+            </div>
+    </div>
+
+
+
+      
+    <div class="Account-container" id="account">
+        <div class="main-wrapper">
+            <input type="radio" name="form-toggle" id="login-dot" checked>
+            <input type="radio" name="form-toggle" id="signup-dot">
+
+            <div class="auth-card">
+                <div class="login-box">
+                    <h2>Log In</h2>
+                    <form>
+                        <input type="email" placeholder="Email or phone number" required>
+                        <input type="password" placeholder="Password" required>
+                        <button type="submit" class="button">Login</button>
+                    </form>
+                    <p>Do not have an account? <label for="signup-dot" class="link">Sign Up</label></p>
+                </div>
+
+            <div class="signup-box">
+                <h2>Sign Up</h2>
+                <form>
+                    <div class="input-row">
+                        <input type="text" placeholder="First Name" required>
+                        <input type="text" placeholder="Last Name" required>
+                    </div>
+                    <input type="email" placeholder="Email or phone number" required>
+                    <input type="password" placeholder="Password" required>
+                    <button type="submit" class="button">Sign up</button>
+                </form>
+                <p>Have an account? <label for="login-dot" class="link">Login</label></p>
+            </div>
+            </div>
+        </div>
+
+
+        <div class="auth-wrapper">
+            <input type="checkbox" id="toggle-forms" style="display: none;">
+
+            <div class="signup-box">
+            <h2>Sign Up</h2>
+            <form>
+                <div class="input-row">
+                    <input type="text" placeholder="Firstname">
+                    <input type="text" placeholder="Lastname">
+                </div>
+
+                <input type="email" placeholder="Email or phone number">
+                <input type="password" placeholder="Password">
+                <button type="submit" class="button-main">Sign Up</button>
+            </form>
+            <p>Have an account? <label for="toggle-forms" class="form-link">Log In</label></p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <img src="Identity/Logo.png" class="footer-img">
+                <p>Yemen's premier artisanal rug weaving house,<br> blending the finest materials with modern, bespoke designs tailored to your vision.</p>
+            </div>
+
+            <div class="footer-col">
+                <h2>Links</h2>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#product">Products</a></li>
+                    <li><a href="#customize">Customize</a></li>
+                    <li><a href="#account">Account</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h2>Contacts</h2>
+                <div class="social-links">
+                    <ul class="contact-info">
+                        <p class="icon"><img src="Identity/call.png" id="icons"><a href="tel:+967714085777">Phone</p></a>
+                        <p class="icon"><img src="Identity/email.png" id="icons"><a href="mailto:bisaatstore@gmail.com">Email</p></a>
+                        <p class="icon"><img src="Identity/instagram.png" id="icons"><a href="https://www.instagram.com/bisaat.ye">Instagram</p></a>
+                        <p class="icon"><img src="Identity/facebook.png" id="icons"><a href="https://www.facebook.com/bisaat.ye">Facebook</p></a>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+  
+        <div class="footer-bottom">
+            <p style="color: rgb(78, 77, 77)">&copy; 2026 Bisaat. All rights reserved.</p>
+        </div>
+    </footer>
+    
+
+</body>
+</html>
